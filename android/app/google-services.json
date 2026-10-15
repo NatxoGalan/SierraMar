@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577678245287",
+    "project_id": "sierramar-43a93",
+    "storage_bucket": "sierramar-43a93.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577678245287:android:52ce85f5602a3ea6e68a82",
+        "android_client_info": {
+          "package_name": "com.ngr.sierramar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcOs1nBmI6-fvRN4v_JDPcQiDRV1uexNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
