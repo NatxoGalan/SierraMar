@@ -1,17 +1,36 @@
-# lasede_app
+# SierraMar
 
-A new Flutter project.
+App de gestión de bares (Flutter + Firebase).
 
-## Getting Started
+## Descarga
 
-This project is a starting point for a Flutter application.
+Última APK Android: [Releases](https://github.com/NatxoGalan/SierraMar/releases/latest)
 
-A few resources to get you started if this is your first Flutter project:
+- Entra en la última release y descarga el archivo `SierraMar-vX.Y.Z.apk`.
+- Nota: la APK está firmada con claves de depuración; al instalar, permite la instalación desde "orígenes desconocidos".
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Desarrollo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+## Build
+
+```bash
+flutter build apk --release   # APK: build/app/outputs/flutter-apk/app-release.apk
+flutter build web --release   # Web: build/web (Vercel sirve esta carpeta)
+```
+
+## Nuevas versiones
+
+1. Sube la versión en `pubspec.yaml`.
+2. Commitea y crea el tag:
+
+```bash
+git tag vX.Y.Z
+git push origin vX.Y.Z
+```
+
+El workflow `Release APK` compila la APK y la adjunta automáticamente a la release.
